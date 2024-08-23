@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>程程の小破站~</title>
   
-  
+  <subtitle>庸常之中， 微芒不朽</subtitle>
   <link href="https://chengcode.top/atom.xml" rel="self"/>
   
   <link href="https://chengcode.top/"/>
-  <updated>2024-08-22T21:53:45.378Z</updated>
+  <updated>2024-08-23T02:30:30.902Z</updated>
   <id>https://chengcode.top/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://chengcode.top/posts/bdae0d9b.html"/>
     <id>https://chengcode.top/posts/bdae0d9b.html</id>
     <published>2024-08-22T21:18:22.270Z</published>
-    <updated>2024-08-22T21:53:45.378Z</updated>
+    <updated>2024-08-23T02:30:30.902Z</updated>
     
-    <content type="html"><![CDATA[<p>Hello!!!我是一名即将步入<strong>大一</strong>的计算机小白。这也是我发布的<strong>第一篇博客</strong>~</p><h2 id="关于我是如何想起写博客呢？"><a href="#关于我是如何想起写博客呢？" class="headerlink" title="关于我是如何想起写博客呢？"></a>关于我是如何想起写博客呢？</h2><blockquote><p>早在初中的时候，本人就尝试过搭建自己的个人博客<del>（跟着敲代码）</del><br>在学习的过程中，激发了我对编程的热爱<br>而令我突然开始写博客的主要有以下几点：</p></blockquote><ul><li>第一：写博客可以<strong>记录我的学习笔记</strong>，方便自己翻阅与使用，<del>或许也可以帮助到其他有需要的人</del></li><li>第二：展示我的优缺点，方便得到指点</li><li>第三：使我养成<strong>学习</strong>的好习惯</li></ul><h2 id="目前阶段学习目标（大一上学期）："><a href="#目前阶段学习目标（大一上学期）：" class="headerlink" title="目前阶段学习目标（大一上学期）："></a>目前阶段学习目标（大一上学期）：</h2><ol><li>学习python，考取计算机二级证书（python）</li><li>熟练掌握Markdown</li><li>熟练掌握办公三件套</li></ol><hr><h3 id="结束语"><a href="#结束语" class="headerlink" title="结束语:"></a>结束语:</h3><blockquote><p><em>The only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle</em>.<br>成就的唯一途徑是熱愛自己的事業，如果你還沒找到的話，繼續尋找，不要屈就。<br> — Steve Jobs<br> 希望我们能保持着对编程的热爱</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>Hello!!!我是一名即将步入<strong>大一</strong>的计算机小白。这也是我发布的<strong>第一篇博客</strong>~</p><h2 id="关于我是如何想起写博客呢？"><a href="#关于我是如何想起写博客呢？" class="headerlink" title="关于我是如何想起写博客呢？"></a>关于我是如何想起写博客呢？</h2><blockquote><p>早在初中的时候，本人就尝试过搭建自己的个人博客~（跟着敲代码）~<br>在学习的过程中，激发了我对编程的热爱<br>而令我突然开始写博客的原因主要有以下几点：</p></blockquote><ul><li>第一：写博客可以<strong>记录我的学习笔记</strong>，方便自己翻阅与使用，~或许也可以帮助到其他有需要的人~</li><li>第二：展示我的优缺点，方便得到指点</li><li>第三：使我养成<strong>学习</strong>的好习惯<h3 id="目前阶段学习目标（大一上学期）："><a href="#目前阶段学习目标（大一上学期）：" class="headerlink" title="目前阶段学习目标（大一上学期）："></a>目前阶段学习目标（大一上学期）：</h3></li></ul><ol><li>学习python，考取计算机二级证书（python）</li><li>熟练掌握Markdown</li><li>熟练掌握办公三件套</li></ol><hr><h2 id="结束语"><a href="#结束语" class="headerlink" title="结束语:"></a>结束语:</h2><blockquote><p><em>The only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle</em>.<br>成就的唯一途徑是熱愛自己的事業，如果你還沒找到的話，繼續尋找，不要屈就。<br> — Steve Jobs<br> 希望我们能保持着对编程的热爱</p></blockquote>]]></content>
     
     
       
@@ -35,6 +35,8 @@
     
     
     
+    <category term="自我介绍" scheme="https://chengcode.top/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/"/>
+    
   </entry>
   
   <entry>
@@ -42,7 +44,7 @@
     <link href="https://chengcode.top/posts/4a17b156.html"/>
     <id>https://chengcode.top/posts/4a17b156.html</id>
     <published>2024-08-22T07:04:16.341Z</published>
-    <updated>2024-08-22T09:40:55.675Z</updated>
+    <updated>2024-08-23T02:36:10.991Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
