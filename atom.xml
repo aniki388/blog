@@ -6,7 +6,7 @@
   <link href="https://chengcode.top/atom.xml" rel="self"/>
   
   <link href="https://chengcode.top/"/>
-  <updated>2024-08-23T02:30:30.902Z</updated>
+  <updated>2024-08-23T10:15:23.998Z</updated>
   <id>https://chengcode.top/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown语法大全</title>
+    <link href="https://chengcode.top/posts/44ed1e9b.html"/>
+    <id>https://chengcode.top/posts/44ed1e9b.html</id>
+    <published>2024-08-23T05:39:34.267Z</published>
+    <updated>2024-08-23T10:15:23.998Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Markdown语法总结（初学）2024-8-23更新（未完成）"><a href="#Markdown语法总结（初学）2024-8-23更新（未完成）" class="headerlink" title="Markdown语法总结（初学）2024&#x2F;8&#x2F;23更新（未完成）"></a>Markdown语法总结（初学）2024&#x2F;8&#x2F;23更新（未完成）</h1><h2 id="前言："><a href="#前言：" class="headerlink" title="前言："></a><strong>前言</strong>：</h2><p>Markdown是一种轻量级标记语言，排版语法简洁，十分适合用于日常写作记录。</p><p>同时献上<a href="https://markdown.com.cn/basic-syntax/">Markdown 官方教程</a></p><p>本人总结Markdown有以下几个<strong>优点</strong>：</p><ol><li>语法十分简单，常见标记符号少，掌握的<strong>时间成本低</strong></li><li>使用十分简单，排版<strong>简洁，高效</strong>，<strong>沉浸式记录</strong>不二之选</li><li>可与HTML混编，可导出 <strong>HTML、PDF，</strong>使用于大部分场合</li></ol><hr><h2 id="标题："><a href="#标题：" class="headerlink" title="标题："></a><strong>标题</strong>：</h2><p>使用<code>#</code> 来表示标题<strong>（注意#后面需要跟空格）</strong>。<code>#</code> 的数量代表了标题的级别，随着#增加而递减。</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 最大标题</span></span><br><span class="line"><span class="section">## 次级标题</span></span><br><span class="line">...以此类推</span><br><span class="line"><span class="section">###### 最小标题</span></span><br></pre></td></tr></table></figure><p>效果如下：</p><blockquote><h1 id="最大标题"><a href="#最大标题" class="headerlink" title="最大标题"></a>最大标题</h1><h2 id="次级标题"><a href="#次级标题" class="headerlink" title="次级标题"></a>次级标题</h2><h6 id="最小标题"><a href="#最小标题" class="headerlink" title="最小标题"></a>最小标题</h6></blockquote><h2 id="强调："><a href="#强调：" class="headerlink" title="强调："></a><strong>强调</strong>：</h2><p>Markdown有三种强调语法，分别为粗体（Bold），斜体（Italic），删除线，以下展示常见用法</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">**我是粗体**</span></span><br><span class="line"><span class="emphasis">*我是斜体*</span></span><br><span class="line">~~我被删除了(<span class="emphasis">*/ω＼*</span>)~~（注意是两个波浪号）</span><br></pre></td></tr></table></figure><h2 id="列表："><a href="#列表：" class="headerlink" title="列表："></a><strong>列表</strong>：</h2><p>①使用<code>-</code>, <code>+</code>, 或 <code>*</code>创建无序列表。</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> 我是第一项</span><br><span class="line"><span class="bullet">-</span> 我是第二项</span><br><span class="line"><span class="bullet">  -</span> 子列表项一</span><br><span class="line"><span class="bullet">  -</span> 子列表项二</span><br></pre></td></tr></table></figure><blockquote><ul><li>我是第一项</li><li>我是第二项<ul><li>子列表项一</li><li>子列表项二</li></ul></li></ul></blockquote><p>②有序列表使用数字后跟点来创建。</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1.</span> 第一项</span><br><span class="line"><span class="bullet">2.</span> 第二项</span><br><span class="line"><span class="bullet">3.</span> 第三项</span><br></pre></td></tr></table></figure><blockquote><ol><li>第一项</li><li>第二项</li><li>第三项</li></ol></blockquote><h2 id="链接："><a href="#链接：" class="headerlink" title="链接："></a><strong>链接</strong>：</h2><h3 id="①超链接Markdown语法"><a href="#①超链接Markdown语法" class="headerlink" title="①超链接Markdown语法"></a>①超链接Markdown语法</h3><p><code>[超链接显示名](超链接地址 &quot;超链接title&quot;)</code></p><p>链接文本放在中括号内，链接地址放在后面的括号中，链接title是当鼠标悬停在链接上时会出现的文字</p><p>例如：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">Markdown语法总结</span>](<span class="link">https://markdown.com.cn &quot;站长总结&quot;</span>)</span><br></pre></td></tr></table></figure><blockquote><p>渲染效果：<a href="https://markdown.com.cn/" title="站长总结">Markdown语法总结</a></p></blockquote><h3 id="②网址和Email地址"><a href="#②网址和Email地址" class="headerlink" title="②网址和Email地址"></a>②网址和Email地址</h3><p>使用尖括号可以很方便地把URL或者email地址变成可点击的链接。</p><blockquote><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="language-xml">&lt;https://chengcode.top&gt;</span></span><br><span class="line">&lt;3069859233@qq.com&gt;</span><br></pre></td></tr></table></figure></blockquote><blockquote><p>渲染效果:</p><p><a href="https://chengcode.top/">https://chengcode.top</a><br><a href="mailto:&#51;&#x30;&#54;&#57;&#x38;&#53;&#x39;&#x32;&#x33;&#x33;&#64;&#x71;&#113;&#x2e;&#x63;&#x6f;&#109;">&#51;&#x30;&#54;&#57;&#x38;&#53;&#x39;&#x32;&#x33;&#x33;&#64;&#x71;&#113;&#x2e;&#x63;&#x6f;&#109;</a></p></blockquote><h3 id="③带格式化的链接"><a href="#③带格式化的链接" class="headerlink" title="③带格式化的链接"></a>③带格式化的链接</h3><p>强调链接，在链接语法前后增加星号。</p><p><code>I like my  **[blog](chengcode.top)**</code></p><blockquote><p>I like my  <strong><a href="chengcode.top">blog</a></strong></p></blockquote><h2 id="引用："><a href="#引用：" class="headerlink" title="引用："></a><strong>引用</strong>：</h2><p>使用<code>&gt;</code>来创建引用</p><blockquote><p><code>&gt;危楼高百尺，手可摘星辰。</code>  </p><p><code>&gt;不敢高声语，恐惊天上人。</code></p></blockquote><p>效果如下</p><blockquote><p>危楼高百尺，手可摘星辰。</p><p>不敢高声语，恐惊天上人。</p></blockquote><h2 id="表格："><a href="#表格：" class="headerlink" title="表格："></a><strong>表格</strong>：</h2><p>使用<code>|</code>和<code>---</code>来创建表格。</p><blockquote><p><code>|标题一|标题二|标题三|</code></p><p><code>|------|------|------|</code></p><p><code>|单元格一|单元格二|单元格三|</code></p><p><code>|单元格四|单元格五|单元格六|</code></p></blockquote><table><thead><tr><th>标题一</th><th>标题二</th><th>标题三</th></tr></thead><tbody><tr><td>单元格一</td><td>单元格二</td><td>单元格三</td></tr><tr><td>单元格四</td><td>单元格五</td><td>单元格六</td></tr></tbody></table>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Markdown语法总结（初学）2024-8-23更新（未完成）&quot;&gt;&lt;a href=&quot;#Markdown语法总结（初学）2024-8-23更新（未完成）&quot; class=&quot;headerlink&quot; title=&quot;Markdown语法总结（初学）2024&amp;#x2F;8&amp;</summary>
+      
+    
+    
+    
+    
+    <category term="Markdown" scheme="https://chengcode.top/tags/Markdown/"/>
+    
+  </entry>
   
   <entry>
     <title>自我介绍</title>
